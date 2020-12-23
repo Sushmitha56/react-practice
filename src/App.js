@@ -1,11 +1,15 @@
 import React from "react";
-import "./style.css";
+import c1 from "./components/c1";
+import ClassCounter from "./components/ClassCounter";
+import C2 from "./components/C2";
+import TodoList from "./components/TodoList";
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ClassCounter />
+      <C2 />
+      <TodoList />
     </div>
   );
 }
